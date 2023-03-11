@@ -331,7 +331,7 @@ a.active, a:hover{
     left:0;
    }
    .heading1{
-    display: flex;
+    display: grid;
    flex-direction: column;
    justify-content: center;
     justify-content: space-between;
