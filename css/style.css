@@ -374,6 +374,7 @@ a.active, a:hover{
     font-size: 18px;
     text-align: justify;
     padding-right: 5px;
+    color:#7e8181;
 }
 
 .context{
@@ -390,8 +391,8 @@ a.active, a:hover{
     font-size: 40px;
 }
 .context p{
-    font-size: 20px;
-    color: red;
+    font-size: 18px;
+    color:#7e8181;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -401,7 +402,7 @@ a.active, a:hover{
 }
 .catalogues h1{
     padding-top: 50px;
-    font-size: 45px;
+    font-size: 40px;
     padding-bottom: 30px;
     color: #000;
 }
@@ -519,7 +520,7 @@ a.active, a:hover{
 }
 .mapbox h1{
     color: black;
-    font-size: 25px;
+    font-size: 40px;
 }
 .btn3{
     border: 1px solid rgb(95, 84, 252);
@@ -536,7 +537,7 @@ a.active, a:hover{
 }
 .mapbox p{
     background-color:aliceblue;
-    border-radius: 20px;
+    border-radius: 18px;
     color:#7e8181;
     font-size: 20px;
 }
