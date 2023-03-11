@@ -361,13 +361,12 @@ a.active, a:hover{
 .home p{
     font-size: 18px;
     text-align: justify;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .heading1 .homeIcon{
     padding-top: 20px;
-    width: 350px;
+    width: 340px;
     height: 300px;
-  margin-left: 0px;
 }
 .context{
     margin-top: 100px;
