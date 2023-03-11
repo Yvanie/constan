@@ -361,15 +361,13 @@ a.active, a:hover{
 .home p{
     font-size: 18px;
     text-align: justify;
+    padding-right: 10px;
 }
 .heading1 .homeIcon{
     padding-top: 20px;
-    width: 400px;
+    width: 350px;
     height: 300px;
-    border-radius: 40px;
-    padding-left: 3px;
-    padding-right: 10px;
-    justify-content: center;
+  margin-left: 0px;
 }
 .context{
     margin-top: 100px;
@@ -378,7 +376,7 @@ a.active, a:hover{
    margin-right: 8px;
    border-radius: 30px;
     background-color: aliceblue;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .context h1{
     padding-top: 30px;
@@ -391,9 +389,8 @@ a.active, a:hover{
     padding-bottom: 20px;
 }
 .produit{
-    width: 370px;
+    width: 320px;
     height: 300px;
-    padding-right: 20px;
 }
 .catalogues{
     margin-top: 40px;
@@ -486,14 +483,12 @@ a.active, a:hover{
 }
 .leader{
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
     justify-content: space-between;
-   padding-left: 20px;
-   padding-right: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
 }
 .leader .image {
-    width: 170px;
+    width: 100px;
     height: 100px;
 }
 .partners{
@@ -505,7 +500,7 @@ a.active, a:hover{
 .leaders-icons h1{
    margin-bottom: 10px;
    margin-top: 20px;
-   font-size: 50px;
+   font-size: 40px;
 }
 .mapbox{
 
