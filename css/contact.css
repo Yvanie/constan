@@ -174,9 +174,9 @@ a.active, a:hover{
     font-size: 20px;
 }
 .maps iframe{
-    padding-left: 10px;
+    padding-left: 8px;
     padding-top: 20px;
-  padding-right: 240px;
+  padding-right: 269px;
 }
 .info{
     display: flex;
@@ -196,7 +196,7 @@ a.active, a:hover{
 .media{
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding-left: 25px;
 }
 .line{
     max-width: 900px;
