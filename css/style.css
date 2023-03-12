@@ -139,6 +139,7 @@ a.active, a:hover{
 .catalogues{
     margin-top: 60px;
     text-align: center;
+    padding-bottom: 40px;
 }
 .catalogues h1{
     padding-top: 50px;
@@ -222,6 +223,12 @@ a.active, a:hover{
     background-color: black;
     color: white;
 }
+.leaders-icons{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
 .leader{
     display: flex;
     flex-wrap: wrap;
@@ -247,7 +254,7 @@ a.active, a:hover{
 }
 .mapbox{
 
-    background-color:aliceblue;
+    background-color:white;
     border-radius: 20px;
     margin: 90px;
     margin-left: 5px;
@@ -255,7 +262,8 @@ a.active, a:hover{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
-    color: white;
+    box-shadow: 1px 2px 1px white;
+    border: 1px solid white;
 }
 .mapbox h1{
     color: black;
@@ -278,7 +286,7 @@ a.active, a:hover{
     font-size: 50px;
 }
 .mapbox p{
-    background-color:aliceblue;
+    background-color:white;
     border-radius: 22px;
     color:#7e8181;
     font-size: 20px;
@@ -406,10 +414,6 @@ a.active, a:hover{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.catalogues{
-    margin-top: 40px;
-    text-align: center;
-}
 .catalogues h1{
     padding-top: 50px;
     font-size: 40px;
@@ -518,7 +522,7 @@ a.active, a:hover{
 }
 .mapbox{
 
-    background-color:aliceblue;
+    background-color:white;
     border-radius: 40px;
     margin: 90px;
     margin-left: 20px;
@@ -546,7 +550,6 @@ a.active, a:hover{
     color: white;
 }
 .mapbox p{
-    background-color:aliceblue;
     border-radius: 18px;
     color:#7e8181;
     font-size: 20px;
