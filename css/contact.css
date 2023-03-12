@@ -173,15 +173,22 @@ a.active, a:hover{
 .contact p{
     font-size: 20px;
 }
-.maps iframe{
-    padding-left: 8px;
-    padding-top: 20px;
-  padding-right: 269px;
+.maps{
+   width: 100%;
+   height: auto;
+   flex: 50%;
+   padding-right: 70px;
 }
+.maps iframe{
+    width: 100%;
+    height: 100%;
+ }
 .info{
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-right: 10px;
 }
 .media p{
     font-size: 20px;
