@@ -37,9 +37,11 @@ nav{
     top: 0;
 }
 nav .logo{
-    width: 100px;
+    width: 120px;
     padding-left: 30px;
-    margin-left: 70px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 10px;
 }
 nav ul{
     float: right;
@@ -73,32 +75,42 @@ a.active, a:hover{
 #check{
     display: none;
 }
-.contact h1{
+.contact{
     text-align: center;
-    padding-left: 500px;
-    padding-top: 15px;
+}
+.contact h1{
+ 
+    padding-top: 50px;
 }
 .contact p{
     font-size: 24px;
     color: #7e8181;
-    text-align: center;
     padding-bottom: 20px;
-}
-.maps iframe{
-    padding-left: 90px;
-    padding-top: 20px;
-    
 }
 .info{
     display: flex;
-   
 }
+.maps{
+    width: 100%;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    padding: 20px 20px;
+    padding-right: 20px;
+ }
+ .maps iframe{
+     width: 100%;
+     height: auto;
+     flex: 40%;
+     padding-left: 10px;
+  }
 .media p{
-    font-size: 25px;
+    font-size: 19px;
     color: #7e8181;
 }
 .media h1{
     color: black;
+    font-size: 20px;
 }
 .media i{
     font-size: 25px;
@@ -106,8 +118,9 @@ a.active, a:hover{
 .media{
     display: flex;
     flex-direction: column;
-    padding-left: 180px;
-    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 80px;
+    padding-top: 30px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
@@ -133,6 +146,12 @@ a.active, a:hover{
 }
 /* @media query for */
 @media (max-width: 858px){
+    nav .logo{
+        width: 100px;
+        padding-left: 10px;
+        margin-left: -50px;
+        padding-top: 5px;
+    }
     .head{
         display: none;
     }
@@ -174,21 +193,21 @@ a.active, a:hover{
     font-size: 20px;
 }
 .maps{
-   width: 100%;
-   height: auto;
-   flex: 50%;
-   padding-right: 70px;
-}
-.maps iframe{
-    width: 100%;
-    height: 100%;
- }
-.info{
     width: 80%;
     height: auto;
     margin: auto;
-    flex-wrap: wrap;
-    padding-right: 10px;
+    display: flex;
+    padding: 0px;
+    padding-right: 20px;
+ }
+ .maps iframe{
+     width: 100%;
+     height: auto;
+     flex: 50%;
+  }
+.info{
+    display: flex;
+    flex-direction: column;
 }
 .media p{
     font-size: 20px;
@@ -204,6 +223,7 @@ a.active, a:hover{
     display: flex;
     flex-direction: column;
     padding-left: 25px;
+    text-align: center;
 }
 .line{
     max-width: 900px;

@@ -29,7 +29,7 @@ body{
 }
 nav{
     background-color: #0082e6;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-right: 10px;
     height: 80px;
     width: 100%;
@@ -37,9 +37,11 @@ nav{
     top: 0;
 }
 nav .logo{
-    width: 100px;
+    width: 120px;
     padding-left: 30px;
-    margin-left: 70px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 10px;
 }
 nav ul{
     float: right;
@@ -311,6 +313,12 @@ a.active, a:hover{
 
 /* @media query for */
 @media (max-width: 858px){
+    nav .logo{
+        width: 100px;
+        padding-left: 10px;
+        margin-left: -50px;
+        padding-top: 5px;
+    }
     .head{
         display: none;
     }
