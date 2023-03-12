@@ -96,7 +96,7 @@ a.active, a:hover{
     margin: 40px;
     display: flex;
     padding: 20px 20px;
-    padding-right: 20px;
+    padding-right:50px;
  }
  .maps iframe{
      width: 100%;
@@ -105,22 +105,21 @@ a.active, a:hover{
      padding-left: 10px;
   }
 .media p{
-    font-size: 19px;
+    font-size: 20px;
     color: #7e8181;
 }
 .media h1{
     color: black;
-    font-size: 20px;
 }
 .media i{
-    font-size: 25px;
+    font-size: 18px;
 }
 .media{
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
+    padding-left: -15px;
     padding-right: 80px;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
@@ -223,7 +222,6 @@ a.active, a:hover{
     display: flex;
     flex-direction: column;
     padding-left: 25px;
-    text-align: center;
 }
 .line{
     max-width: 900px;
@@ -259,4 +257,21 @@ a.active, a:hover{
     nav ul li a{
         font-size: 16px;
     } 
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.contact{
+    animation-name:slideInLeft ;
+    animation-duration:1s ;
+    animation-timing-function:ease-in ;
+    animation-delay:1s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
 }
