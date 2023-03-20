@@ -5,10 +5,7 @@
     list-style: none;
     box-sizing: border-box;
 }
-.container {
-    max-width: 1100px;
-    margin: 30px auto;
-}
+
 .container1 {
     max-width: 1200px;
     margin: 0px auto;
@@ -59,10 +56,7 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
-a.active, a:hover{
-    background: #1b9bff;
-    transition: .5s;
-}
+
 .checkbtn{
     font-size: 30px;
     color: white;
@@ -74,6 +68,144 @@ a.active, a:hover{
 }
 #check{
     display: none;
+}
+
+.contact{
+    text-align: center;
+}
+.contact h1{
+    padding-top: 50px;
+    font-size:70px ; 
+}
+.contact p{
+    font-size: 24px;
+    color: #7e8181;
+    padding-bottom: 20px;
+}
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home{
+    padding-right: 50px;
+}
+.home  h1{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.home p{
+    font-size: 22px;
+    text-align: justify;
+    color: #7e8181;
+}
+.heading1 .homeIcon{
+    padding-top: 10px;
+    width: 100%;
+    height: 350.2px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.home1{
+    padding-left: 50px;
+}
+.home1 h1{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.home1 p{
+    font-size: 22px;
+    text-align: justify;
+    color: #7e8181;
+}
+.heading2 .homeIcon1{
+    padding-top: 10px;
+    width: 100%;
+    height: 350.2px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.heading3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home2{
+    padding-right: 50px;
+}
+.home2 h1{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.home2 p{
+    font-size: 22px;
+    text-align: justify;
+    color: #7e8181;
+}
+.heading3 .homeIcon2{
+    padding-top: 10px;
+    width: 100%;
+    height: 350.2px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.heading4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.home3{
+    padding-left: 50px;
+}
+.home3  h1{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.home3 p{
+    font-size: 22px;
+    text-align: justify;
+    color: #7e8181;
+}
+.heading4 .homeIcon3{
+    padding-top: 10px;
+    width: 100%;
+    height: 350.2px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.btn{
+    border: 1px solid #0082e6;
+    padding: 15px 90px;
+   text-align: center;
+    border-radius: 30px;
+    margin-top: 4px;
+    color:black;
+    background-color: #fff;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.leaders-icons{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
 }
 .line{
     max-width: 1300px;
@@ -91,8 +223,6 @@ a.active, a:hover{
 .reseaux span{
     color: #0082e6;
 }
-
-
 /* @media query for */
 @media (max-width: 858px){
     nav .logo{
@@ -100,9 +230,6 @@ a.active, a:hover{
         padding-left: 10px;
         margin-left: -50px;
         padding-top: 5px;
-    }
-    .head{
-        display: none;
     }
    .checkbtn{
     padding-top: 20px;
@@ -127,19 +254,132 @@ a.active, a:hover{
    nav ul li a{
     font-size: 20px;
    }
-   a:hover, a.active{
-    background:none ;
-    color: #0082e6;
-   }
+  
    #check:checked ~ ul{
     left:0;
    }
-   
+   .contact h1{
+    padding-top: 50px;
+    font-size:40px ; 
+    }
+    .contact p{
+        font-size: 20px;
+        color: #7e8181;
+        padding-bottom: 20px;
+    }
+.btn{
+    border: 1px solid #0082e6;
+    padding: 10px 60px;
+   text-align: center;
+    border-radius: 30px;
+    margin-top: 4px;
+    color:black;
+    background-color: #fff;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.heading1{
+    display: grid;
+   flex-direction: column;
+   justify-content: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    margin: 10px;
+    }
+.home{
+   padding-left: 10px;
+   padding-right: 5px;
+}
+.home  h1{
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.home p{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 5px;
+    color:#7e8181;
+}
+.heading2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin: 10px;
+}
+.home1{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.home1  h1{
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.home1 p{
+    font-size: 22px;
+    text-align: justify;
+    color: #7e8181;
+}
+.heading3{
+    display: grid;
+   flex-direction: column;
+   justify-content: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    margin: 10px;
+    }
+.home2{
+   padding-left: 10px;
+   padding-right: 5px;
+}
+.home2  h1{
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.home2 p{
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 5px;
+    color:#7e8181;
+}
+.heading4{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    margin: 10px;
+}
+.home3{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.home3  h1{
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.home3 p{
+    font-size: 22px;
+    text-align: justify;
+    color: #7e8181;
+}
 }
 @media (min-width: 952px) and (max-width:1190px){
-    .head{
-        display: none;
-    }
     nav.logo{
         width: 100px;
         padding-left: 30px;
@@ -148,4 +388,57 @@ a.active, a:hover{
         font-size: 16px;
     }
  
+}
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.contact{
+    animation-name:slideInLeft ;
+    animation-duration:1s ;
+    animation-timing-function:ease-in ;
+    animation-delay:1s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
+}
+.home h1{
+    animation-name:slideInLeft ;
+    animation-duration:2s ;
+    animation-timing-function:ease-in ;
+    animation-delay:3s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
+}
+.home1 h1{
+    animation-name:slideInLeft ;
+    animation-duration:2s ;
+    animation-timing-function:ease-in ;
+    animation-delay:5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
+}
+.home2 h1{
+    animation-name:slideInLeft ;
+    animation-duration:2s ;
+    animation-timing-function:ease-in ;
+    animation-delay:7s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
+}
+.home3 h1{
+    animation-name:slideInLeft ;
+    animation-duration:2s ;
+    animation-timing-function:ease-in ;
+    animation-delay:9s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
 }

@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="slider">
+            <img src="images/img1.jpg" alt="image"/>
+            <div class="but">
+                <button onclick="back()"><i class="bx bx-chevron-left"></i></button>
+                <button onclick="next()"><i class="bx bx-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        var maining=document.querySelector("img");
+        var images = ["images/img1.jpg", "images/img2.jpg", "images/img1.jpg"];
+        var num = 0;
+
+        function next(){
+            num++;
+            if(num>=images.length){
+                num=0;
+                maining.src=images[num]
+            }else{
+                maining.src=images[num]
+            }
+        };
+        function back(){
+            num--;
+            if(num<0){
+                num=images.length-1;
+                maining.src=images[num];
+            }else{
+                maining.src=image[num];
+            }
+        }
+    </script>
+</body>
+</html>

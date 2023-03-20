@@ -5,11 +5,7 @@
     list-style: none;
     box-sizing: border-box;
 }
-.container{
-    max-width: 1100px;
-    margin: 30px auto;
-}
-.container1{
+.container1 {
     max-width: 1200px;
     margin: 0px auto;
 }
@@ -19,7 +15,7 @@ body{
 .head{
   padding-top: 10px;
   padding-bottom: 5px;
-text-align: center;
+    text-align: center;
     color: black;
     font-size: 15px;
     
@@ -29,7 +25,7 @@ text-align: center;
 }
 nav{
     background-color: #0082e6;
-    padding-left: 40px;
+    padding-left: 60px;
     padding-right: 10px;
     height: 80px;
     width: 100%;
@@ -72,55 +68,72 @@ nav ul li a{
 #check{
     display: none;
 }
-
-.info{
-    display: flex;
-}.contact{
+.title{
     text-align: center;
+    padding-top: 40px;
 }
-.contact h1{
-    padding-top: 50px;
-    font-size:40px ;
+.title h1{
+    font-size: 40px;
 }
-.contact p{
-    font-size: 24px;
+.title p{
+    font-size: 20px;
     color: #7e8181;
-    padding-bottom: 20px;
 }
-.maps{
-    width: 100%;
-    height: auto;
-    margin: 10px;
-    display: flex;
-    padding: 10px 0px;
-    margin-right: 100px;
- }
- .maps iframe{
-     width: 100%;
-     height: auto;
-     flex: 40%;
-  }
-  .container {
+.container1 {
     max-width: 1100px;
     margin: 30px auto;
 }
-.media p{
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home{
+    padding-right: 100px;
+    padding-left: 70px;
+}
+.home  h1{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.home p{
     font-size: 22px;
+    text-align: justify;
     color: #7e8181;
 }
-.media strong{
-    font-size: 25;
-    color: black;
-}
-.media i{
-    font-size: 18px;
-}
-.media{
-    display: flex;
-    flex-direction: column;
-    padding-right: 120px;
+.heading1 .homeIcon{
     padding-top: 10px;
-    padding-bottom: 10px;
+    height: 50vh;
+    border-radius: 30px;
+    object-fit: cover;
+    padding-right: 60px;
+   
+}
+
+.container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 8px;
+   }
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 30px;
+}
+.title2{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 45px;
+}
+.gallery a img{
+    width: 100%;
 }
 .line{
     max-width: 1300px;
@@ -142,6 +155,7 @@ nav ul li a{
     margin-top: 10px;
     font-size: 15;
 }
+
 /* @media query for */
 @media (max-width: 858px){
     nav .logo{
@@ -157,7 +171,8 @@ nav ul li a{
     padding-top: 20px;
     display: block;
    }
-   ul{
+   
+ul{
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -176,57 +191,53 @@ nav ul li a{
    nav ul li a{
     font-size: 20px;
    }
-  
+   a:hover, a.active{
+    background:none ;
+    color: #0082e6;
+   }
    #check:checked ~ ul{
     left:0;
    }
-   
-.contact h1{
-    padding-left: 20px;
-    font-size: 30px;
-}
-.contact p{
-    font-size: 20px;
-}
-.maps{
-    width: 80%;
-    height: auto;
-    margin: auto;
-    display: flex;
-    padding: 0px;
-    padding-right: 20px;
- }
- .maps iframe{
-     width: 100%;
-     height: auto;
-     flex: 50%;
-  }
-.info{
-    display: flex;
-    flex-direction: column;
-}
-.media p{
+   .title h1{
+    padding-top: 5px;
+    font-size:30px ; 
+    }
+    .title p{
     font-size: 20px;
     color: #7e8181;
-}
-.media h1{
-    color: black;
-}
-.media i{
-    font-size: 25px;
-}
-.media{
+    padding-bottom: 20px;
+    }
+    .heading1{
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    padding-top: 50px;
-}
-.line{
-    max-width: 900px;
-    margin: 10px auto;
+    padding-top: 5px;
+    margin-bottom: 40px;
+    }
+    .home{
+        padding-right: 5px;
+        padding-left: 5px;
+        text-align: center;
+    }
+    .home  h1{
+    padding-top: 10px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    }
+    .home p{
+    font-size: 20px;
+    text-align: justify;
+    color:#7e8181;
+    }
+    .heading1 .homeIcon{
+        width: 100%;
+        padding-right: 5px;
+       
+    }
+    .line{
+    max-width: 1300px;
+    margin: 30px auto;
     margin-bottom: 30px;
-  margin-right: 30px;
-  margin-left: 20px;
+    padding-right: 20px;
     box-shadow: 0px 4px 3px;
     border: 1px solid #5f6368;
 }
@@ -238,11 +249,6 @@ nav ul li a{
 .reseaux span{
     color: #0082e6;
 }
-.mail{
-    margin-top: 10px;
-    font-size: 15;
-}
- 
 }
 @media (min-width: 952px) and (max-width:1190px){
     .head{
@@ -254,7 +260,7 @@ nav ul li a{
     }
     nav ul li a{
         font-size: 16px;
-    } 
+    }
 }
 @keyframes slideInLeft {
     from{
@@ -264,7 +270,7 @@ nav ul li a{
         transform: translateX(0);
     }
 }
-.contact{
+.title{
     animation-name:slideInLeft ;
     animation-duration:1s ;
     animation-timing-function:ease-in ;
@@ -273,3 +279,22 @@ nav ul li a{
     animation-direction: normal;
     animation-fill-mode:none ;
 }
+.home {
+    animation-name:slideInLeft ;
+    animation-duration:2s ;
+    animation-timing-function:ease-in ;
+    animation-delay:3s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
+}
+.title2{
+    animation-name:slideInLeft ;
+    animation-duration:2s ;
+    animation-timing-function:ease-in ;
+    animation-delay:5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode:none ;
+}
+
